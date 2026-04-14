@@ -178,7 +178,7 @@ with st.sidebar:
 page = st.session_state.page
 
 if page == "home":
-    from pages.home import render; render()
+    from my_pages.home import render; render()
 
 elif page == "dashboard":
     from pages.auth import is_logged_in
